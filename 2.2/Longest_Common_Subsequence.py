@@ -17,7 +17,7 @@ def LCSS(X,Y):
 
 def ED(x,y):
     return abs(x - y)
-
+    # 直線距離ではないのでは？
 
 if __name__ == '__main__':
     data = pd.read_csv("temp.csv", delimiter=',', encoding= "shift-jis")
